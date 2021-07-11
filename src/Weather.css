@@ -53,7 +53,7 @@
     0 0 0.2em rgb(240, 241, 161);
 }
 
-.Weather .Citydetails {
+.Weather .cityDetails {
   backdrop-filter: blur(1.2px);
   border-radius: 50px;
   color: rgb(244, 240, 228);
