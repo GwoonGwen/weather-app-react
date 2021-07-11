@@ -1,0 +1,25 @@
+.MyInfo a {
+  color: rgb(54, 73, 247);
+  text-decoration: none;
+}
+
+.MyInfo {
+  color: rgb(251, 249, 249);
+  text-shadow: 1px 1px 2px rgb(33, 0, 181), 0 0 1em black, 0 0 0.2em black;
+  font-size: 90%;
+  text-align: center;
+}
+
+.MyInfo .Melink {
+  color: rgb(254, 253, 149);
+  font-family: monospace;
+  text-shadow: 1px 1px 2px rgb(212, 0, 255), 0 0 1em rgb(67, 229, 18),
+    0 0 0.2em blue;
+  text-decoration: none;
+}
+
+.MyInfo .Melink:hover {
+  color: rgb(247, 240, 99);
+  text-shadow: 1px 1px 20px rgb(8, 8, 8), 0 0 1em rgb(182, 178, 246),
+    0 0 0.2em rgb(250, 217, 244);
+}

@@ -1,38 +1,28 @@
+body {
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url(https://cssanimation.rocks/images/random/space2.jpg);
+	font-family: "Noto Sans JP", sans-serif;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+	background: center / contain no-repeat
+		url(https://cssanimation.rocks/images/random/earth.png);
+	box-shadow: 0 0 100px rgba(246, 198, 64, 0.745);
+	border-radius: 60%;
+	margin: 60px auto;
+	max-height: 650px;
+	max-width: 650px;
+	min-height: 650px;
+	min-width: 650px;
+	text-align: center;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }

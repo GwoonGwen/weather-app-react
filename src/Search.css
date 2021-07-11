@@ -1,0 +1,17 @@
+.SearchBar {
+  background-color: lightyellow;
+  border: thin;
+  border-radius: 200px;
+  font-size: 20px;
+  height: 28px;
+  margin-top: 30px;
+  margin-left: 28px;
+  text-align: center;
+  width: 27%;
+}
+
+.SearchButton {
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
