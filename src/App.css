@@ -1,4 +1,4 @@
-.WeatherApp {
+.App {
 	background: center / contain no-repeat
 		url(https://cssanimation.rocks/images/random/earth.png);
 	box-shadow: 0 0 100px rgba(246, 198, 64, 0.745);
@@ -10,4 +10,3 @@
 	min-width: 700px;
 	text-align: center;
 }
-

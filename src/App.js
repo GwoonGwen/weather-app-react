@@ -7,13 +7,12 @@ import Myinfo from "./Myinfo";
 import './App.css';
 
 function App() {
-  let city = "Amsterdam";
   return (
     <div className="App">
-      <div className="container WeatherApp">
+      <div className="container">
         <Search />
         <Today />
-        <Weather city={city} tempmain={20} icon="🌈" wind={2} humidity={80} sky="Cloudy" />
+        <Weather tempmain={20} icon="🌈" wind={2} humidity={80} sky="Cloudy" />
         <Forecast date="Saturday" icon="🌤" tempMax={25} tempMin={10} />
       </div>
         <Myinfo />
