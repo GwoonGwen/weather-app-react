@@ -16,7 +16,7 @@ function App() {
         <Weather city={city} tempmain={20} icon="🌈" wind={2} humidity={80} sky="Cloudy" />
         <Forecast date="Saturday" icon="🌤" tempMax={25} tempMin={10} />
       </div>
-      <Myinfo />
+        <Myinfo />
     </div>
   );
 }

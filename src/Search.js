@@ -8,18 +8,17 @@ export default function Search(props) {
         <div>
           <input
             type="search"
-            className="SearchBar"
+            className="SearchEngine"
             id="search-bar"
-            placeholder="Find a city.."
+            placeholder="Look for a city.."
             autofocus="on"
             autocomplete="off"
           />
           <button
             type="submit"
-            className="btn btn-transparant SearchButton p-0"
+            className="btn btn-transparant SearchButton p-1"
             id="find-button"
-          >
-            👁
+          >👁
           </button>
         </div>
       </form>
