@@ -3,7 +3,6 @@ import Today from "./Today";
 import Weather from "./Weather";
 import Forecast from "./Forecast";
 import Myinfo from "./Myinfo";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 import './App.css';
 
