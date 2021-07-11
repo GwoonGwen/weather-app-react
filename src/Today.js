@@ -2,7 +2,6 @@ import React from "react";
 import "./Today.css";
 
 export default function Today(props) {
-  console.log(props.date);
   let days = [
     "Sunday",
     "Monday",
