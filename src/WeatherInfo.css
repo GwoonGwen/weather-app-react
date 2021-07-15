@@ -28,6 +28,11 @@
 	width: 150px;
 }
 
+.Weather .IconToday {
+	filter: drop-shadow(0 0 10px #ffea00);
+	margin-top: 15px;
+}
+
 .Weather .TempNow {
 	filter: drop-shadow(0 0 10px rgb(246, 246, 147));
 	font-size: 50px;
@@ -35,12 +40,6 @@
 	position: relative;
 	top: 20px;
 	left: 18px;
-}
-
-.Weather .IconToday {
-	filter: drop-shadow(0 0 10px rgb(246, 246, 147));
-	position: relative;
-	right: 18px;
 }
 
 .Weather .Celsius {

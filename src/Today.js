@@ -41,10 +41,10 @@ export default function Today(props) {
 
   return (
     <div className="Today">
-      <div className="Date" id="date">
+      <div className="Date">
         {day} {dayNumber} {month}
       </div>
-      <div className="Time" id="time">
+      <div className="Time">
         {hours}:{minutes}
       </div>
     </div>
