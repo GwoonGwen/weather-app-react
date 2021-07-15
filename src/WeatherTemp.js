@@ -13,36 +13,34 @@ export default function WeatherTemp(props) {
     event.preventdefault();
     setUnit("celsius");
   }
-  
+
   function fahrenheit() {
-    return (props.celsius * 9 / 5) + 32;
+    return ((props.celsius * 9 / 5) + 32);
   }
 
     if (unit === "celsius") {
     return (
-        <div>
-            <span className="TempNow">
-                {Math.round(props.temperature)}
-            </span>
-            <span className="Unit">
-            ºC|
+      <div className="WeatherTemp">
+        <span className="TempNow">
+          {Math.round(props.celsius)}
+        </span>
+        <span className="Unit">ºC|
           <a href="/" onClick={showFahrenheit}>
             ºF
           </a>
-            </span>
-        </div>
-    );
+        </span>
+      </div>
+      );
     } else {
       return (
-          <div>
-            <span className="TempNow">
-                {Math.round(fahrenheit())}
+      <div>
+          <span className="TempNow">
+            {Math.round(fahrenheit())}
           </span>
           <span className="Unit">
-            <a href="/" onClick={showCelsius}>
-              ºC
+            <a href="/" onClick={showCelsius}>ºC
             </a>
-              |ºF
+            |ºF
           </span>
         </div>
         );
