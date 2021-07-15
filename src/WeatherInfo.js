@@ -12,7 +12,7 @@ export default function WeatherInfo(props) {
             <h2 className="Temp">
                 <div className="row">
                     <div className="IconToday col-6">
-                        <WeatherIcon code={props.data.icon} />
+                    <WeatherIcon code={props.data.icon} />
                     </div>
                     <div className="col-6">
                     <WeatherTemp temperature={props.data.temperature} />
