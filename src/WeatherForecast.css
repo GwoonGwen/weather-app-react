@@ -1,4 +1,23 @@
+.WeatherForecast {
+	margin-top: 20px;
+}
+
 .WeatherForecast-day {
+	backdrop-filter: blur(1px);
+	border-radius: 45px;
+	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0);
+	color: rgb(0, 0, 0);
+	filter: drop-shadow(0 0 2px rgb(251, 250, 250));
+	font-size: 30px;
+	line-height: 0.1;
+	margin: 20px auto;
+	text-shadow: 1px 1px 2px gold, 0 0 1em rgb(187, 187, 243),
+		0 0 0.2em rgb(240, 241, 161);
+	text-transform: capitalize;
+	width: 350px;
+}
+
+.WeatherForecast-max {
 	backdrop-filter: blur(1px);
 	border-radius: 45px;
 	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0);
@@ -13,23 +32,8 @@
 	width: 350px;
 }
 
-.WeatherForecast-max {
-backdrop-filter: blur(1px);
-	border-radius: 45px;
-	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0);
-	color: rgb(0, 0, 0);
-	filter: drop-shadow(0 0 2px rgb(251, 250, 250));
-	font-size: 30px;
-	line-height: 0.9;
-	margin: 0 auto;
-	text-shadow: 1px 1px 2px gold, 0 0 1em rgb(187, 187, 243),
-		0 0 0.2em rgb(240, 241, 161);
-	text-transform: capitalize;
-	width: 350px;
-}
-
 .WeatherForecast-min {
-backdrop-filter: blur(1px);
+	backdrop-filter: blur(1px);
 	backdrop-filter: blur(1.2px);
 	border-radius: 50px;
 	color: rgb(244, 240, 228);
@@ -47,6 +51,6 @@ backdrop-filter: blur(1px);
 }
 
 .WeatherIcon-FC {
-    filter: drop-shadow(0 0 10px #ffea00);
+	filter: drop-shadow(0 0 10px #ffea00);
 	margin-top: 5px;
 }
