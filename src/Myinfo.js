@@ -6,7 +6,10 @@ export default function Myinfo() {
     <footer className="MyInfo">
       open source code
       <br />
-      <a className="Melink" href="https://github.com/GwoonGwen/weather-app-react" target="_blank" rel="noreferrer">
+      <a className="Melink"
+        href="https://github.com/GwoonGwen/weather-app-react"
+        target="_blank"
+        rel="noreferrer">
         GwoonGwen
       </a>
     </footer>
