@@ -12,30 +12,35 @@ export default function WeatherForecast(props) {
         setLoaded(true);
     }
 
-    if (loaded) {
-        return (
-            <div className="WeatherForecast">
-                <div className="row">
-                    {forecast.map(function (dailyForecast, index) {
-                        if (index < 5) {
-                        return (
-                            <div className="col-2" key={index}>
-                                <WeatherForecastDay data={dailyForecast} />
-                            </div>
-                        );
-                        }
-                    })}
-                </div>
-            </div>
-        );
-    } else {
+    function load() {
         let lon = props.coord.lon;
-        let lat = props.coord.lat;
-        let key = "0f6fb678af98802b16d8b308cd865407";
-        let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${key}&units=metric`;
+            let lat = props.coord.lat;
+            let key = "0f6fb678af98802b16d8b308cd865407";
+            let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${key}&units=metric`;
     
-        axios.get(apiUrl).then(handleResponse);
-
-        return null;
+            axios.get(apiUrl).then(handleResponse);
     }
+
+        if (loaded) {
+            return (
+                <div className="WeatherForecast">
+                    <div className="row">
+                        {forecast.map(function (dailyForecast, index) {
+                            if (index < 5) {
+                                return (
+                                    <div className="col-2" key={index}>
+                                        <WeatherForecastDay data={dailyForecast} />
+                                    </div>
+                                );
+                            } else {
+                                return null;
+                            }
+                        })}
+                    </div>
+                </div>
+            );
+        } else {
+            load()
+            return null;
+        }
 }
