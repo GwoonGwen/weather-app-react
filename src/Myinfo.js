@@ -1,5 +1,5 @@
 import React from "react";
-import "./MyInfo.css";
+import "./Myinfo.css";
 
 export default function Myinfo() {
   return (
