@@ -1,5 +1,5 @@
 import Weather from "./Weather";
-import Myinfo from "./Myinfo";
+import MyInfo from "./MyInfo";
 
 import './App.css';
 
@@ -9,7 +9,7 @@ function App() {
       <div className="container">
         <Weather defaultCity="Amsterdam" />
       </div>
-      <Myinfo />
+      <MyInfo />
     </div>
   );
 }
